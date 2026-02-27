@@ -32,6 +32,8 @@
 
 Pixel Telo 隐私优先：不收集任何个人数据，所有来电识别均在本地设备处理。
 
+详细内容请阅读 **[隐私政策](https://github.com/PixelTelo/AppRelease/blob/main/PRIVACY.md)**。
+
 ---
 
 **兼容性**：Android 10（API 29）及以上，推荐 Google Pixel 系列设备。
