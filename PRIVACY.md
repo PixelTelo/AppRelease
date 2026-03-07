@@ -16,10 +16,7 @@ Pixel Telo 是一款专为 Google Pixel 及类原生 Android 设备设计的来�
 
 | 权限 | 用途 |
 |---|---|
-| `READ_PHONE_STATE` | 在来电时获取来电号码，用于实时识别判断 |
-| `MANAGE_OWN_CALLS` | 通过系统 CallScreeningService 拦截骚扰来电 |
 | `READ_CONTACTS` | 为系统拨号器提供号码标签展示（Directory Provider），不读取联系人信息内容 |
-| `READ_CALL_LOG` | 读取通话记录，用于在应用内展示拦截历史 |
 | `INTERNET` | 在本地库无匹配时，向云端查询号码信息；以及更新本地骚扰号码库 |
 
 ---
