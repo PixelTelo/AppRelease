@@ -4,6 +4,9 @@
 
 ---
 
+# 开源说明
+APP 现已开源，仓库地址 [https://github.com/Pixel-Tailor-CN/PixelTelo](https://github.com/Pixel-Tailor-CN/PixelTelo) ，本仓库后续不再更新，issue请前往telegram频道或者新仓库
+
 ## 📦 下载安装包
 
 前往 **[Releases 页面](https://github.com/PixelTelo/AppRelease/releases/latest)** 下载最新版本。
