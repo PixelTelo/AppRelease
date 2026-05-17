@@ -1,6 +1,6 @@
 # Pixel Telo 隐私政策
 
-**生效日期：2026 年 2 月 27 日**
+**生效日期：2026 年 5 月 18 日**
 
 本隐私政策适用于 Pixel Telo 应用（以下简称"本应用"）。请在使用本应用前仔细阅读本政策。
 
@@ -8,16 +8,23 @@
 
 ## 一、应用简介
 
-Pixel Telo 是一款专为 Google Pixel 及类原生 Android 设备设计的来电识别与拦截应用。本应用的核心设计理念是**隐私优先**——所有来电分析均优先在本地完成，仅在必要时进行最小化的网络请求。
+Pixel Telo 是一款专为 Google Pixel 及类原生 Android 设备设计的来电识别与拦截应用。本应用的核心设计理念是
+**隐私优先**——所有来电分析均优先在本地完成，仅在必要时进行最小化的网络请求。
 
 ---
 
 ## 二、我们申请的权限
 
-| 权限 | 用途 |
-|---|---|
-| `READ_CONTACTS` | 为系统拨号器提供号码标签展示（Directory Provider），不读取联系人信息内容 |
-| `INTERNET` | 在本地库无匹配时，向云端查询号码信息；以及更新本地骚扰号码库 |
+| 权限               | 用途                                                           |
+|------------------|--------------------------------------------------------------|
+| `READ_CONTACTS`  | 为系统拨号器提供号码标签展示（Directory Provider），仅用于接收系统号码查询请求，不读取或上传通讯录内容 |
+| `WRITE_CONTACTS` | Android Directory Provider 目录查询兼容所需。本应用不会新增、修改或删除联系人         |
+| `READ_CALL_LOG`  | Android 号码查询与来电标签展示所需。本应用不会上传系统通话记录，拦截记录仅保存在设备本地             |
+| `INTERNET`       | 在本地库无匹配时，向云端查询号码信息；以及更新本地骚扰号码库                               |
+
+联系人与通话记录相关权限用于 Android 系统将来电或号码查询请求转发给本应用。Pixel Telo
+不会遍历、导出或上传联系人与系统通话记录；`WRITE_CONTACTS` 仅用于满足系统 Directory Provider
+的权限要求，不会实际写入联系人数据库。
 
 ---
 
@@ -79,6 +86,7 @@ Pixel Telo 是一款专为 Google Pixel 及类原生 Android 设备设计的来�
 - 用户账号或身份信息
 - 地理位置
 - 通话录音或通话内容
+- 完整系统通话记录或未由本应用处理的通话历史
 - 联系人姓名、邮箱等个人信息
 - 应用使用行为分析（埋点、统计）
 - 崩溃日志或诊断数据（上传至服务器）
@@ -133,4 +141,5 @@ Pixel Telo 是一款专为 Google Pixel 及类原生 Android 设备设计的来�
 
 如有任何隐私相关问题或疑虑，欢迎通过以下方式联系：
 
-- **提交 Issue**：[https://github.com/PixelTelo/AppRelease/issues](https://github.com/PixelTelo/AppRelease/issues)
+- **提交 Issue
+  **：[https://github.com/Pixel-Tailor-CN/PixelTelo/issues](https://github.com/Pixel-Tailor-CN/PixelTelo/issues)
